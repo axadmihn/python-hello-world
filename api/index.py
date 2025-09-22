@@ -9,6 +9,6 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write('Hi, this is Jongmin. Call me Mihn'.encode('utf-8'))
         pi=355/113
         radius=7
-        area=(pi*radius**2)
+        area=(pi*(radius**2))
         self.wfile.write.int(area)
         return
