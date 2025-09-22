@@ -11,4 +11,6 @@ class handler(BaseHTTPRequestHandler):
         radius=7
         area=(pi*(radius**2))
         int(area.encode('utf-8'))
+        .encode(int(area))
+
         return
