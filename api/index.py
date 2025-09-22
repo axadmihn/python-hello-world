@@ -7,8 +7,8 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type','text/plain')
         self.end_headers()
         self.wfile.write('Hi, this is Jongmin. Call me Mihn'.encode('utf-8'))
- pi=355/113
+        pi=355/113
         radius=7
         area=(pi*radius**2)
-        self.wfile.write(area.encode('utf-8'))
+        int('area')
         return
