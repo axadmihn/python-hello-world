@@ -10,5 +10,5 @@ class handler(BaseHTTPRequestHandler):
         pi=355/113
         radius=7
         area=(pi*radius**2)
-        int('area')
+        self.int('area')
         return
